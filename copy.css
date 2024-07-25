@@ -1,0 +1,63 @@
+body, html{
+    margin: 0;
+    padding: 0;
+}
+
+#title{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid gainsboro;
+
+}
+
+body{
+    background-image: url('sea-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+
+#head{
+    text-align: center;
+    width: 450px;
+    padding: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#nba{
+    
+    display: inline;
+    margin-left: 25px;
+   
+}
+#search{
+    /* width:10px */
+    margin-left: 45px;
+    display: inline;
+}
+
+.menu-items{
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    background-color: white;
+    margin: 0px;
+}
+
+#cont{
+    color: white;
+    text-align: center;
+    font-family: 'Times';
+    padding-top: 15%;
+}
+#button{
+    padding-right: 10px 20px;
+    border-radius: 5px;
+    display: inline;
+    color:aqua;
+}
